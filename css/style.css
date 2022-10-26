@@ -411,13 +411,13 @@ button {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #fff;
 }
 
 /* -----------------CLIENTS------------------ */
 
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -426,18 +426,18 @@ button {
   color: var(--main-text-color);
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.client-link {
+.client__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -449,14 +449,14 @@ button {
   transition: color var(--bezier-effect);
 }
 
-.clients-icon {
+.clients__icon {
   width: 106px;
   height: 60px;
   fill: currentColor;
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   color: #2196f3;
   border-color: #2196f3;
 }

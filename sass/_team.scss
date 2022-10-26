@@ -2,46 +2,46 @@
 
 .team {
   background-color: var(--team-bg-color);
-}
 
-.team__title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  color: var(--main-text-color);
-  margin-bottom: 50px;
-}
+  &__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-text-color);
+    margin-bottom: 50px;
+  }
 
-.team__list {
-  display: flex;
-  gap: 30px;
-}
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
 
-.team__item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  &__item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
 }
 
 .card {
   background-color: var(--main-bg-color);
   border-radius: 0 0 4px 4px;
   padding: 30px 0;
-}
 
-.card__name {
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  color: var(--main-text-color);
-}
+  &__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--main-text-color);
+  }
 
-.card__description {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  color: var(--second-text-color);
+  &__description {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--second-text-color);
+  }
 }
 
 .team__soclist--pos {
@@ -53,8 +53,8 @@
   color: #afb1b8;
   transition: color var(--bezier-effect), background-color var(--bezier-effect);
 
-  &__link:hover,
-  &__link:focus {
+  &:hover,
+  &:focus {
     background-color: var(--accent-color);
     color: #fff;
   }
