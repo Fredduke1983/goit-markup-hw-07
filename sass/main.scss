@@ -1,12 +1,15 @@
-@import './vars';
-@import './normal';
-@import './header';
-@import './hero';
-@import './advantages';
-@import './wwd';
-@import './team';
-@import './clients';
-@import './footer';
+@import './base/vars';
+@import './components/soc-icons';
+@import './base/reset';
+@import './utils/hidden';
+@import './base/base';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/wwd';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
 
-@import './portfolio';
-@import './modal';
+@import './layouts/portfolio';
+@import './components/modal';
